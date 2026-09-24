@@ -1,0 +1,28 @@
+
+
+GraphedExpression="motor[Motor1].ctrl.pos_set", Color=#e56a6f
+GraphedExpression="motor[Motor1].para.pos", Color=#35792b
+OpenDocument="dm_motor_ctrl.c", FilePath="d:/Project/dm-motor/J4310P-MIT/User/dm_motor_ctrl.c", Line=141
+OpenDocument="dm_motor_drv.c", FilePath="d:/Project/dm-motor/J4310P-MIT/User/dm_motor_drv.c", Line=0
+OpenDocument="main.c", FilePath="d:/Project/dm-motor/J4310P-MIT/Core/Src/main.c", Line=39
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Watched Data 1", DockArea=RIGHT, x=0, y=1, w=1183, h=333, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=298, h=1093, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=751, h=328, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=1105, h=328, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1183, h=759, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="500 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="845;496", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="364;-69", CodeGraphLegendShown=0, CodeGraphLegendPosition="379;0"
+OpenWindow="Console", DockArea=BOTTOM, x=2, y=0, w=702, h=328, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[650;104;100;100;230]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" motor[Motor1].ctrl.pos_set";" motor[Motor1].para.pos"], ColWidths=[100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="DESCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[292;100;100;154;164;100;110;126;126]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[224;229;104;626]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[26;26;26;26]
+WatchedExpression="motor[Motor1].para.pos", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="motor[Motor1].ctrl.pos_set", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="motor[Motor1].ctrl.kp_set", Window=Watched Data 1
+WatchedExpression="motor[Motor1].ctrl.kd_set", Window=Watched Data 1
+WatchedExpression="pos_amp", Window=Watched Data 1
+WatchedExpression="pos_freq", Window=Watched Data 1
